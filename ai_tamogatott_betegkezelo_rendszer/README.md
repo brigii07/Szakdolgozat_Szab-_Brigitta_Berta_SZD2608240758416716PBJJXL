@@ -26,7 +26,6 @@ A `package.json` a Laravel alapcsomagjából származó Vite- és Tailwind-függ
 ## 2. Telepítés
 ### 2.1. A függőségek telepítése 
 
-(A vendor ettől függetlenül szándékosan rendelkezésre áll.)
 ```bash
 composer install
 ```
