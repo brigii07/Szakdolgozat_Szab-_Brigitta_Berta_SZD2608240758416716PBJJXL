@@ -127,10 +127,7 @@
                                     <span class="px-2 py-1 rounded-md text-xs bg-red-50 text-red-600">
                                         {{ $r->parameter_name }}: <strong>{{ $r->value }}</strong> {{ $r->unit }}
                                         {{ $high ? '↑' : '↓' }}
-                                        <span
-                                            class="text-                                            class="
-                                            text-slate-400">({{ $r->referenceLabel() }})</span>
-                                    -400">({{ $r->reference_min }}–{{ $r->reference_max }})</span>
+                                        <span class="text-slate-400">({{ $r->referenceLabel() }}) </span>
                                     </span>
                                 @endforeach
                             </div>
